@@ -11,4 +11,4 @@ df = pd.DataFrame(
     "Sex": ["male", "male", "female"],
    }
 )
-print(df)
+df.to_csv("mynewfile.csv", index=True, header=False)
